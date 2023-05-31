@@ -107,6 +107,13 @@ header {
     width: 100%;
 }
 
+
+.main .center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .card-movie {
     width: 20%;
 }

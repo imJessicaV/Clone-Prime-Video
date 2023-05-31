@@ -9,6 +9,7 @@ fetch('https://tmdb-proxy-workers.vhfmag.workers.dev/3/discover/movie?language=p
             if(j == 0){
                 main.innerHTML +=`
                     <div class="banner-principal" style="background-image: url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
+                    
                 `;
             }else{
                 if(j == 1){
@@ -19,6 +20,7 @@ fetch('https://tmdb-proxy-workers.vhfmag.workers.dev/3/discover/movie?language=p
                 }else{
                     main.innerHTML +=`
                         <div class="card-movie"><img src="https://image.tmdb.org/t/p/w500`+i.backdrop_path+`" alt="${i.title}"></div>
+                        
                     `;	
                 }
             }
